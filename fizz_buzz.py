@@ -15,16 +15,14 @@ def fizzbuzz():
         none
     """
     for i in range(1,101,1):
-        if (i%3 == 0) and (i%5 == 0):   #check if i is multiple of 3 and 5
+        if i%3 == 0 and i%5 == 0:   #check if i is multiple of 3 and 5
             print("fizzbuzz")
         
-        elif (i%3 ==0):                 #check if i is multiple of 3
+        elif i%3 ==0:                 #check if i is multiple of 3
             print("fizz")
         
-        elif (i%5==0):                  #check if i is multiple of 5         
+        elif i%5==0:                  #check if i is multiple of 5         
             print("buzz")
             
         else:                           #the munbes isn't a multiple of 3 or 5
             print(i)    
-
-fizzbuzz()

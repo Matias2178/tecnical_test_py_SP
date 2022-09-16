@@ -31,7 +31,3 @@ def repetition_word(text: str()):
     for clave, valor in word_dic.items():
         print(clave,valor)
         
-
-
-    
-repetition_word("Hi!| ° ¬ how, are. \n \ things? How are you? Are you a developer? I am also a developer")

@@ -42,5 +42,3 @@ def control(n, result):
     else:
         print("something is wrong!!")
 
-control(100, 354224848179261915075)
-fibonacci(-12)
